@@ -1,0 +1,33 @@
+# Azure Functions local config — contains the SQL connection string / secrets
+local.settings.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Azure Functions
+bin/
+obj/
+.python_packages/
+.azure/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Azurite (local storage emulator) data
+AzuriteConfig
+__azurite_db_*.json
+__blobstorage__/
+__queuestorage__/
+
+# Other local secrets
+.env
+*.env
+
+# Assignment brief
+*.docx

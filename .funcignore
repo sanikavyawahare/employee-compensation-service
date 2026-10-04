@@ -1,0 +1,10 @@
+.git*
+.venv/
+venv/
+__pycache__/
+.vscode/
+local.settings.json
+README.md
+sql/
+tests/
+*.docx
